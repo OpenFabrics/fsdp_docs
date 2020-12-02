@@ -44,11 +44,11 @@ Once connected to the OpenVPN, users can reach the lab resources, including the
 [Beaker Server](http://beaker.ofa.iol.unh.edu), lab infrastructure, and the test
 nodes.  The [Network Information](network_information.md) page provides
 additional details for the resources and hardware within the lab. The
-[Test Nodes](test_nodes.md) page describes the systems within the cluser,
+[Test Nodes](test_nodes.md) page describes the systems within the cluser, and the
 cards installed and connected fabrics.
 
-Users connecting to the lab for the first time should immedately SSH to the
-builder-00.ofa. iol.unh.edu server, following to prompts to change their
+Users connecting to the lab for the first time should immedately SSH into the
+builder-00.ofa.iol.unh.edu server, following to prompts to change their
 password.  This username and password will be used to access all resrouces
 within the lab.
 
