@@ -52,7 +52,7 @@ builder-00.ofa.iol.unh.edu server, following to prompts to change their
 password.  This username and password will be used to access all resrouces
 within the lab.
 
-It is recommended each company appoint a primary deligate, who will notify
+It is recommended each company appoint a primary delegate, who will notify
 the OFA and FSDP lab of any staffing changes that require the deactivation or
 removal of any FSDP lab accounts.  The [Account Deletion Request
 Form](FSDP_Account_Deletion.pdf) should be used for this purpose.
