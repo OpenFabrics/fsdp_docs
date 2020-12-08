@@ -29,6 +29,34 @@ the lab systems, including lists of host names, etc.
 
 ![FSDP Logical Diagram](<figures/FSDP Logical Diagram.png>)
 
+## Getting Started
+
+Each lab user must have an account to access the lab through the OpenVPN
+connection.  Accounts should be requested by completing the [Account Creation
+Request Form](FSDP_Account_Request.pdf) and submitting the completed form, along
+with the user's public SSH key to [FSDP Account Request Email](mailto:fsdp-accounts@openfabrics.org).
+
+Once the account has been created by the lab staff, the lab will notify the user,
+by email, providing the temporary, one-time-use password.  As part of the email
+notification, the lab will provide an OpenVPN configuration file.
+
+Once connected to the OpenVPN, users can reach the lab resources, including the
+[Beaker Server](http://beaker.ofa.iol.unh.edu), lab infrastructure, and the test
+nodes.  The [Network Information](network_information.md) page provides
+additional details for the resources and hardware within the lab. The
+[Test Nodes](test_nodes.md) page describes the systems within the cluser, and the
+cards installed and connected fabrics.
+
+Users connecting to the lab for the first time should immedately SSH into the
+builder-00.ofa.iol.unh.edu server, following to prompts to change their
+password.  This username and password will be used to access all resrouces
+within the lab.
+
+It is recommended each company appoint a primary deligate, who will notify
+the OFA and FSDP lab of any staffing changes that require the deactivation or
+removal of any FSDP lab accounts.  The [Account Deletion Request
+Form](FSDP_Account_Deletion.pdf) should be used for this purpose.
+
 ## Copyright
 
 Initial copyright on the repository is (c)2020 Red Hat, Inc.
