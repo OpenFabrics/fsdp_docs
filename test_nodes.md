@@ -63,7 +63,7 @@ along with the installed fabric cards, etc.
 | PCI Slot 1 Type | 16x full height |
 | PCI Slot 1 Card | Chelsio T62100-CR 2x40/50/100G 2-port card |
 | PCI Slot 2 Type | 8x half height |
-| PCI Slot 2 Card | None |
+| PCI Slot 2 Card | Broadcom 57404 25G 2-port card |
 | PCI Slot 3 Type | 16x half height |
 | PCI Slot 3 Card | Broadcom 957508-P2100G 100G 2-port card |
 
@@ -75,7 +75,7 @@ along with the installed fabric cards, etc.
 | PCI Slot 1 Type | 16x full height |
 | PCI Slot 1 Card | Chelsio T62100-CR 2x40/50/100G 2-port card |
 | PCI Slot 2 Type | 8x half height |
-| PCI Slot 2 Card | None |
+| PCI Slot 2 Card | Broadcom 57404 25G 2-port card |
 | PCI Slot 3 Type | 16x half height |
 | PCI Slot 3 Card | Broadcom 957508-P2100G 100G 2-port card |
 
