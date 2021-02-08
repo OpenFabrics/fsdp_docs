@@ -18,7 +18,9 @@ over and are accessed via this network.
 
 ## Fabric Networks
 
-TBD
+* [OPA Fabric](omni_path_fabric.md)
+* [ROCE Fabric & iWARP](ethernet_fabric.md)
+* [IB Fabric](ib_fabric.md)
 
 ## Host / Node Information
 
@@ -58,6 +60,8 @@ out from under a node you did not indend.  Each node has only a single power sup
 | Host Name | Power Controlled Outlet |
 | --------- | ----------------------- |
 | builder-00 | PDU-1 Load #23 |
+| EdgeCore 100G Fabric Switch | PDU-1 & PDU-2 Load #22 |
+| OPA Fabric Switch | PDU-1  & PDU-2 Load #20 |
 | node-01 | PDU-1 Load #19 |
 | node-02 | PDU-2 Load #19 |
 | node-03 | PDU-1 Load #18 |
