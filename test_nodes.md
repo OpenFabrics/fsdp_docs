@@ -111,7 +111,7 @@ along with the installed fabric cards, etc.
 | PCI Slot 1 Type | 16x full height |
 | PCI Slot 1 Card | None |
 | PCI Slot 2 Type | 8x half height |
-| PCI Slot 2 Card | None |
+| PCI Slot 2 Card | Mellanox QL41212HL20 100G 2-port card |
 | PCI Slot 3 Type | 16x half height |
 | PCI Slot 3 Card | None |
 
@@ -123,6 +123,6 @@ along with the installed fabric cards, etc.
 | PCI Slot 1 Type | 16x full height |
 | PCI Slot 1 Card | None |
 | PCI Slot 2 Type | 8x half height |
-| PCI Slot 2 Card | None |
+| PCI Slot 2 Card | Mellanox QL41212HL20 100G 2-port card |
 | PCI Slot 3 Type | 16x half height |
 | PCI Slot 3 Card | None |
