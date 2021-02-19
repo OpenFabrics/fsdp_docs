@@ -6,8 +6,8 @@ hosted in the lab.
 ## Switch & Fabric
 
 The Ethernet fabic is created with the EdgeCore Wedge 100BF-32X-O-AC, which is
-a 32-port, 100G whitebox Ethernet switch.  The switch is current running
-X.Y.Z version of [SONiC](https://azure.github.io/SONiC/).
+a 32-port, 100G whitebox Ethernet switch.  The switch is currently running
+SONiC.master.125-dirty-20210216.022428 version of [SONiC](https://azure.github.io/SONiC/).
 
 In the port definitions below, the power numbers refer to the 40G / 100G port. When
 that port is connected to a breakout cable, either to 10G or 25G, the physical
