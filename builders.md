@@ -3,8 +3,11 @@
 The following describes the build server(s) in the FSDP cluster and provides instructions on how to use them.
 
 ## Server Information
+
 NOTE: This information can also be found in [network_information.md](network_information.md).
+
 ### builder-00.ofa.iol.unh.edu
+
 | Parameter | Value |
 |-----------|-------|
 |Hostname   | builder-00.ofa.iol.unh.edu|
@@ -21,7 +24,8 @@ NOTE: This information can also be found in [network_information.md](network_inf
 ### Accessing the Server
 
 #### 1. Connect to the VPN
-When your FSDP Cluster account is created, you should receive an email 
+
+When your FSDP Cluster account is created, you should receive an email
 with your OpenVPN client configuration attached.
 
 **Linux Users:** Linux users should use the OpenVPN client supplied with their distribution. Users of modern Linux distributions may import this file as-is into NetworkManager.
@@ -32,7 +36,7 @@ of the configuration file to try to solve this issue.
 You may use the configuration as-is with this client. You may need to run OpenVPN as administrator for the routes
 to be set up correctly once connected.
 
-**Mac Users:** Install TunnelBlick from [here](https://tunnelblick.net). You may need to run with administrative 
+**Mac Users:** Install TunnelBlick from [here](https://tunnelblick.net). You may need to run with administrative
 privileges for the routes to be set up correctly once connected.
 
 **Usage of this VPN connection is contingent upon agreement with the
@@ -46,18 +50,21 @@ to keep it appropriately secure. E-mail ofalab@iol.unh.edu
 immediately if your VPN credentials have been compromised.**
 
 #### 2. Connect to the build server
+
 Connect to the build server via ssh:
 
 `ssh <username>@builder-00.ofa.iol.unh.edu`
 
-The first time you log in, you should use the initial password given in the welcome email you received. 
+The first time you log in, you should use the initial password given in the welcome email you received.
 You will immediately be required to change your password upon first login.
 
 ### Running build containers
+
 The containers for Fedora-based images are maintained by the [cki-project](https://gitlab.com/cki-project/containers).
 Instructions for accessing and running these images using rootless `podman` can be found below.
 
 #### builder-fedora (Fedora 33)
+
 Run the following command:
 
 `podman run -it registry.gitlab.com/cki-project/containers/builder-fedora`
@@ -65,17 +72,21 @@ Run the following command:
 You should now be running the container image from the registry.
 
 #### builder-rawhide (Fedora 34)
+
 Run the following command:
 
 `podman run -it registry.gitlab.com/cki-project/containers/builder-rawhide`
 
 You should now be running the container image from the registry.
 
-
 #### builder-rhel7
-TBA
-#### builder-rhel8
-TBA
-#### builder-rhel9
-TBA 
 
+TBA
+
+#### builder-rhel8
+
+TBA
+
+#### builder-rhel9
+
+TBA
