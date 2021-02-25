@@ -55,7 +55,7 @@ PCI Slot 1:
 * node-07.ofa.iol.unh.edu - Connected to switch port 16 + **to be connected to switch port 17**
 * node-08.ofa.iol.unh.edu - Connected to switch port 18 + **to be connected to switch port 19**
 
-The following test nodes have **Mellanox QL41212HL20 25G 2-port** cards installed in PCI Slot 2:
+The following test nodes have **Mellanox QL41212HLCU 25G 2-port** cards installed in PCI Slot 2:
 
 * node-09.ofa.iol.unh.edu - To be connected to switch port 20.1 and 20.2
 * node-10.ofa.iol.unh.edu - To be connected to switch port 20.3 and 20.4
