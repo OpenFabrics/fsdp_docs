@@ -14,14 +14,13 @@ that port is connected to a breakout cable, either to 10G or 25G, the physical
 sub-port is indicated as the second number.  *Logical ports in SONiC will be updated
 when available.*
 
-Note, there are currently 4 missing cables, indicated below as "to be connected...".
 
 ## Test Nodes
 
 The following [test nodes](test_nodes.md) have **Intel E810-CQDA2 100G 2-port** cards installed in PCI Slot 1.
 
-* node-01.ofa.iol.unh.edu - Connected to switch port 1 + **to be connected to switch port 2**
-* node-02.ofa.iol.unh.edu - Connected to switch port 4 + **to be connected to switch port 5**
+* node-01.ofa.iol.unh.edu - Connected to switch port 1 + 2
+* node-02.ofa.iol.unh.edu - Connected to switch port 4 + 5
 
 The following test nodes have **Intel X722-DA2 10G 2-port** cards installed in PCI Slot 2:
 
@@ -40,22 +39,22 @@ The following test nodes have **Chelsio T62100-CR 2x40/50/100G 2-port** cards in
 
 The following test nodes have **Broadcom 57404 25G 2-port** cards installed in PCI Slot 2:
 
-* node-05.ofa.iol.unh.edu - **To be connected to switch port 9.1 and 9.2**
-* node-06.ofa.iol.unh.edu - **To be connected to switch port 9.3 and 9.4**
+* node-05.ofa.iol.unh.edu - Connected to switch port 9.1 and 9.2
+* node-06.ofa.iol.unh.edu - Connected to switch port 9.3 and 9.4
 
 The following test nodes have **Broadcom 957508-P2100G 100G 2-port** cards installed:
 
 PCI Slot 3:
 
-* node-05.ofa.iol.unh.edu - Connected to switch port 10 + **to be connected to switch port 11**
-* node-06.ofa.iol.unh.edu - Connected to switch port 14 + **to be connected to switch port 15**
+* node-05.ofa.iol.unh.edu - Connected to switch port 10 + 11
+* node-06.ofa.iol.unh.edu - Connected to switch port 14 + 15
 
 PCI Slot 1:
 
-* node-07.ofa.iol.unh.edu - Connected to switch port 16 + **to be connected to switch port 17**
-* node-08.ofa.iol.unh.edu - Connected to switch port 18 + **to be connected to switch port 19**
+* node-07.ofa.iol.unh.edu - Connected to switch port 16 + 17
+* node-08.ofa.iol.unh.edu - Connected to switch port 18 + 19
 
 The following test nodes have **Mellanox QL41212HLCU 25G 2-port** cards installed in PCI Slot 2:
 
-* node-09.ofa.iol.unh.edu - To be connected to switch port 20.1 and 20.2
-* node-10.ofa.iol.unh.edu - To be connected to switch port 20.3 and 20.4
+* node-09.ofa.iol.unh.edu - Connected to switch port 20.1 and 20.2
+* node-10.ofa.iol.unh.edu - Connected to switch port 20.3 and 20.4
