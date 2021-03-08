@@ -14,7 +14,6 @@ that port is connected to a breakout cable, either to 10G or 25G, the physical
 sub-port is indicated as the second number.  *Logical ports in SONiC will be updated
 when available.*
 
-
 ## Test Nodes
 
 The following [test nodes](test_nodes.md) have **Intel E810-CQDA2 100G 2-port** cards installed in PCI Slot 1.
@@ -58,3 +57,18 @@ The following test nodes have **Mellanox QL41212HLCU 25G 2-port** cards installe
 
 * node-09.ofa.iol.unh.edu - Connected to switch port 20.1 and 20.2
 * node-10.ofa.iol.unh.edu - Connected to switch port 20.3 and 20.4
+
+The following test nodes have **Mellanox MCX631105AN-GDAT 1-port** cards installed in PCI Slot 2:
+
+* node-07.ofa.iol.unh.edu - Connected to TBA
+* node-08.ofa.iol.unh.edu - Connected to TBA
+
+The following test nodes have **Mellanox MCX653106A-HDAT 2-port** cards installed in PCI Slot 3:
+
+* node-07.ofa.iol.unh.edu - Connected to TBA
+* node-08.ofa.iol.unh.edu - Connected to TBA
+
+The following test nodes have **Mellanox MCX556A-ECAT 2-port** cards installed in PCI slot 1:
+
+* node-09.ofa.iol.unh.edu - Connected to TBA
+* node-10.ofa.iol.unh.edu - Connected to TBA
