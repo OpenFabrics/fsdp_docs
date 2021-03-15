@@ -87,9 +87,9 @@ along with the installed fabric cards, etc.
 | PCI Slot 1 Type | 16x full height |
 | PCI Slot 1 Card | Broadcom 957508-P2100G 100G 2-port card |
 | PCI Slot 2 Type | 8x half height |
-| PCI Slot 2 Card | None |
+| PCI Slot 2 Card | Mellanox MCX631105AN-GDAT 1-port card |
 | PCI Slot 3 Type | 16x half height |
-| PCI Slot 3 Card | None |
+| PCI Slot 3 Card | Mellanox MCX653106A-HDAT 2-port card |
 
 ## node-08.ofa.iol.unh.edu
 
@@ -99,9 +99,9 @@ along with the installed fabric cards, etc.
 | PCI Slot 1 Type | 16x full height |
 | PCI Slot 1 Card | Broadcom 957508-P2100G 100G 2-port card |
 | PCI Slot 2 Type | 8x half height |
-| PCI Slot 2 Card | None |
+| PCI Slot 2 Card | Mellanox MCX631105AN-GDAT 1-port card |
 | PCI Slot 3 Type | 16x half height |
-| PCI Slot 3 Card | None |
+| PCI Slot 3 Card | Mellanox MCX653106A-HDAT 2-port card |
 
 ## node-09.ofa.iol.unh.edu
 
@@ -109,9 +109,9 @@ along with the installed fabric cards, etc.
 | --------- | ----------- |
 | Server Type | HPE ProLiant DL325 Gen10 (P16696-B21) |
 | PCI Slot 1 Type | 16x full height |
-| PCI Slot 1 Card | None |
+| PCI Slot 1 Card | Mellanox MCX556A-ECAT 2-port |
 | PCI Slot 2 Type | 8x half height |
-| PCI Slot 2 Card | None |
+| PCI Slot 2 Card | Mellanox QL41212HLCU 100G 2-port card |
 | PCI Slot 3 Type | 16x half height |
 | PCI Slot 3 Card | None |
 
@@ -121,8 +121,8 @@ along with the installed fabric cards, etc.
 | --------- | ----------- |
 | Server Type | HPE ProLiant DL325 Gen10 (P16696-B21) |
 | PCI Slot 1 Type | 16x full height |
-| PCI Slot 1 Card | None |
+| PCI Slot 1 Card | Mellanox MCX556A-ECAT 2-port |
 | PCI Slot 2 Type | 8x half height |
-| PCI Slot 2 Card | None |
+| PCI Slot 2 Card | Mellanox QL41212HLCU 100G 2-port card |
 | PCI Slot 3 Type | 16x half height |
 | PCI Slot 3 Card | None |

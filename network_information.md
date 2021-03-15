@@ -18,7 +18,9 @@ over and are accessed via this network.
 
 ## Fabric Networks
 
-TBD
+* [OPA Fabric](omni_path_fabric.md)
+* [ROCE Fabric & iWARP](ethernet_fabric.md)
+* [IB Fabric](ib_fabric.md)
 
 ## Host / Node Information
 
@@ -37,12 +39,12 @@ information about each of the installed NICs is listed on the
 | node-02 | Test Node #02 | 10.12.1.10 & 2606:4100:3880:3101::10 | 10.12.2.10 & 2606:4100:3880:3102::10 | | Intel NICs | Intel NIC | |
 | node-03 | Test Node #03 | 10.12.1.15 & 2606:4100:3880:3101::15 | 10.12.2.15 & 2606:4100:3880:3102::15 | | Chelsio NIC | Intel NIC | |
 | node-04 | Test Node #04 | 10.12.1.20 & 2606:4100:3880:3101::20 | 10.12.2.20 & 2606:4100:3880:3102::20 | | Chelsio NIC | Intel NIC | |
-| node-05 | Test Node #05 | 10.12.1.25 & 2606:4100:3880:3101::25 | 10.12.2.25 & 2606:4100:3880:3102::25 | | Chelsio NIC | | |
-| node-06 | Test Node #06 | 10.12.1.30 & 2606:4100:3880:3101::30 | 10.12.2.30 & 2606:4100:3880:3102::30 | | Chelsio NIC | | |
-| node-07 | Test Node #07 | 10.12.1.35 & 2606:4100:3880:3101::35 | 10.12.2.45 & 2606:4100:3880:3102::35 | | | | |
-| node-08 | Test Node #08 | 10.12.1.40 & 2606:4100:3880:3101::40 | 10.12.2.40 & 2606:4100:3880:3102::40 | | | | |
-| node-09 | Test Node #09 | 10.12.1.45 & 2606:4100:3880:3101::45 | 10.12.2.45 & 2606:4100:3880:3102::45 | | | | |
-| node-10 | Test Node #10 | 10.12.1.50 & 2606:4100:3880:3101::50 | 10.12.2.50 & 2606:4100:3880:3102::50 | | | | |
+| node-05 | Test Node #05 | 10.12.1.25 & 2606:4100:3880:3101::25 | 10.12.2.25 & 2606:4100:3880:3102::25 | | Chelsio NIC, Broadcom NICs | | |
+| node-06 | Test Node #06 | 10.12.1.30 & 2606:4100:3880:3101::30 | 10.12.2.30 & 2606:4100:3880:3102::30 | | Chelsio NIC, Broadcom NICs | | |
+| node-07 | Test Node #07 | 10.12.1.35 & 2606:4100:3880:3101::35 | 10.12.2.45 & 2606:4100:3880:3102::35 | | Broadcom NIC | | |
+| node-08 | Test Node #08 | 10.12.1.40 & 2606:4100:3880:3101::40 | 10.12.2.40 & 2606:4100:3880:3102::40 | | Broadcom NIC | | |
+| node-09 | Test Node #09 | 10.12.1.45 & 2606:4100:3880:3101::45 | 10.12.2.45 & 2606:4100:3880:3102::45 | | Mellanox NIC | | |
+| node-10 | Test Node #10 | 10.12.1.50 & 2606:4100:3880:3101::50 | 10.12.2.50 & 2606:4100:3880:3102::50 | | Mellanox NIC | | |
 
 ## Power Control
 
@@ -58,6 +60,8 @@ out from under a node you did not indend.  Each node has only a single power sup
 | Host Name | Power Controlled Outlet |
 | --------- | ----------------------- |
 | builder-00 | PDU-1 Load #23 |
+| EdgeCore 100G Fabric Switch | PDU-1 & PDU-2 Load #22 |
+| OPA Fabric Switch | PDU-1  & PDU-2 Load #20 |
 | node-01 | PDU-1 Load #19 |
 | node-02 | PDU-2 Load #19 |
 | node-03 | PDU-1 Load #18 |
