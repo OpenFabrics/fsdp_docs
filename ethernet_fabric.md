@@ -72,3 +72,7 @@ The following test nodes have **Mellanox MCX556A-ECAT 2-port** cards installed i
 
 * node-09.ofa.iol.unh.edu - Connected to TBA
 * node-10.ofa.iol.unh.edu - Connected to TBA
+
+The following test nodes have **Mellanox MCX631102AN-ADAT 2-port** cards installed in PCI slot 3:
+
+* node-09.ofa.iol.unh.edu - Connected to switch port 21.1 and 21.2

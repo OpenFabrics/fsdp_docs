@@ -125,4 +125,4 @@ along with the installed fabric cards, etc.
 | PCI Slot 2 Type | 8x half height |
 | PCI Slot 2 Card | Mellanox QL41212HLCU 100G 2-port card |
 | PCI Slot 3 Type | 16x half height |
-| PCI Slot 3 Card | None |
+| PCI Slot 3 Card | Mellanox MCX631102AN-ADAT 25G 2-port card |
