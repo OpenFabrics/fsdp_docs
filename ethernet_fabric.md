@@ -14,6 +14,11 @@ that port is connected to a breakout cable, either to 10G or 25G, the physical
 sub-port is indicated as the second number.  *Logical ports in SONiC will be updated
 when available.*
 
+## Fabric "Manager"
+
+The [builder-00.ofa.iol.unh.edu](bulders.md) acts as the fabric "manager" through port 1 of
+the Mellanox MCX653106A-HDAT card, which is connected to switch port 32.
+
 ## Test Nodes
 
 The following [test nodes](test_nodes.md) have **Intel E810-CQDA2 100G 2-port** cards installed in PCI Slot 1.

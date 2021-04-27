@@ -101,7 +101,7 @@ along with the installed fabric cards, etc.
 | PCI Slot 2 Type | 8x half height |
 | PCI Slot 2 Card | Mellanox MCX631105AN-GDAT 1-port card |
 | PCI Slot 3 Type | 16x half height |
-| PCI Slot 3 Card | Mellanox MCX653106A-HDAT 2-port card |
+| PCI Slot 3 Card | Mellanox MCX653106A-HDAT 2-port card (moved to builder-00.ofa.iol.unh.edu to allow for fabric management, another copy is expected to arrive soon for this host) |
 
 ## node-09.ofa.iol.unh.edu
 
