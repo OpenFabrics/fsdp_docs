@@ -35,7 +35,7 @@ along with the installed fabric cards, etc.
 | --------- | ----------- |
 | Server Type | HPE ProLiant DL325 Gen10 (P16696-B21) |
 | PCI Slot 1 Type | 16x full height |
-| PCI Slot 1 Card | None |
+| PCI Slot 1 Card | Mellanox MCX556A-ECAT 2-port |
 | PCI Slot 2 Type | 8x half height |
 | PCI Slot 2 Card | Chelsio T6225-CR 2x10/25G 2-port card |
 | PCI Slot 3 Type | 16x half height |
@@ -101,7 +101,7 @@ along with the installed fabric cards, etc.
 | PCI Slot 2 Type | 8x half height |
 | PCI Slot 2 Card | Mellanox MCX631105AN-GDAT 1-port card |
 | PCI Slot 3 Type | 16x half height |
-| PCI Slot 3 Card | Mellanox MCX653106A-HDAT 2-port card (moved to builder-00.ofa.iol.unh.edu to allow for fabric management, another copy is expected to arrive soon for this host) |
+| PCI Slot 3 Card | Mellanox MCX653106A-HDAT 2-port card |
 
 ## node-09.ofa.iol.unh.edu
 
@@ -113,7 +113,7 @@ along with the installed fabric cards, etc.
 | PCI Slot 2 Type | 8x half height |
 | PCI Slot 2 Card | Mellanox QL41212HLCU 100G 2-port card |
 | PCI Slot 3 Type | 16x half height |
-| PCI Slot 3 Card | None |
+| PCI Slot 3 Card | Mellanox MCX631102AN-ADAT 25G 2-port card  |
 
 ## node-10.ofa.iol.unh.edu
 
@@ -121,8 +121,8 @@ along with the installed fabric cards, etc.
 | --------- | ----------- |
 | Server Type | HPE ProLiant DL325 Gen10 (P16696-B21) |
 | PCI Slot 1 Type | 16x full height |
-| PCI Slot 1 Card | Mellanox MCX556A-ECAT 2-port |
+| PCI Slot 1 Card | Mellanox CX654106A 200G 2-port card (1/2)|
 | PCI Slot 2 Type | 8x half height |
 | PCI Slot 2 Card | Mellanox QL41212HLCU 100G 2-port card |
 | PCI Slot 3 Type | 16x half height |
-| PCI Slot 3 Card | Mellanox MCX631102AN-ADAT 25G 2-port card |
+| PCI Slot 3 Card | Mellanox CX654106A 200G 2-port card (2/2)|
