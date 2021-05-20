@@ -38,8 +38,8 @@ The following test nodes have **Chelsio T6225-CR 2x10/25G 2-port** cards install
 
 The following test nodes have **Chelsio T62100-CR 2x40/50/100G 2-port** cards installed in PCI Slot 1:
 
-* node-05.ofa.iol.unh.edu - Connected to switch ports 7 and 8
-* node-06.ofa.iol.unh.edu - Connected to switch ports 12 and 13
+* node-05.ofa.iol.unh.edu - Connected to switch ports 7
+* node-06.ofa.iol.unh.edu - Connected to switch ports 12
 
 The following test nodes have **Broadcom 57404 25G 2-port** cards installed in PCI Slot 2:
 
@@ -50,13 +50,13 @@ The following test nodes have **Broadcom 957508-P2100G 100G 2-port** cards insta
 
 PCI Slot 3:
 
-* node-05.ofa.iol.unh.edu - Connected to switch port 10 + 11
-* node-06.ofa.iol.unh.edu - Connected to switch port 14 + 15
+* node-05.ofa.iol.unh.edu - Connected to switch port 10
+* node-06.ofa.iol.unh.edu - Connected to switch port 14
 
 PCI Slot 1:
 
-* node-07.ofa.iol.unh.edu - Connected to switch port 16 + 17
-* node-08.ofa.iol.unh.edu - Connected to switch port 18 + 19
+* node-07.ofa.iol.unh.edu - Connected to switch port 16 and 17
+* node-08.ofa.iol.unh.edu - Connected to switch port 18 and 19
 
 The following test nodes have **Mellanox QL41212HLCU 25G 2-port** cards installed in PCI Slot 2:
 
@@ -71,3 +71,8 @@ The following test nodes have **Mellanox MCX631105AN-GDAT 50G 1-port** cards ins
 The following test nodes have **Mellanox MCX631102AN-ADAT 10/25G 2-port** cards installed in PCI slot 3:
 
 * node-09.ofa.iol.unh.edu - Connected to switch port 21.1 and 21.2
+
+The following test nodes have **Mellanox MCX631105AN-GDAT 50G 1-port** cards installed in PCI Slot 2:
+
+* node-07.ofa.iol.unh.edu - Connected to TBA
+* node-08.ofa.iol.unh.edu - Connected to TBA
