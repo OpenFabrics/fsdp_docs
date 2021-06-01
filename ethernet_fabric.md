@@ -7,7 +7,9 @@ hosted in the lab.
 
 The Ethernet fabric is created with the EdgeCore Wedge 100BF-32X-O-AC, which is
 a 32-port, 100G whitebox Ethernet switch.  The switch is currently running
-SONiC.master.125-dirty-20210216.022428 version of [SONiC](https://azure.github.io/SONiC/).
+SONiC.master.184-dirty-20210424.033218 version of [SONiC](https://azure.github.io/SONiC/).
+
+The switch's management interface can be accessed via **edgecore.ofa.iol.unh.edu** (10.12.1.248).
 
 In the port definitions below, the power numbers refer to the 40G / 100G port. When
 that port is connected to a breakout cable, either to 10G or 25G, the physical
