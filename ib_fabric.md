@@ -6,6 +6,8 @@ The following information is for the InfiniBand (IB) Fabrics hosted within the l
 
 The IB fabric is created with the Mellanox Quantum QM8700 HDR IB 40 Port Switch.
 
+The switch's management interface can be accessed via **infiniband.ofa.iol.unh.edu** (10.12.1.247).
+
 In the port definitions below, the power numbers refer to the 40G / 100G port. When
 that port is connected to a breakout cable, either to 10G or 25G, the physical
 sub-port is indicated as the second number.  *Logical ports will be updated
