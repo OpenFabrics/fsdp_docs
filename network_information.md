@@ -41,10 +41,10 @@ information about each of the installed NICs is listed on the
 | node-04 | Test Node #04 | 10.12.1.20 & 2606:4100:3880:3101::20 | 10.12.2.20 & 2606:4100:3880:3102::20 | | Chelsio NIC | Intel NIC | |
 | node-05 | Test Node #05 | 10.12.1.25 & 2606:4100:3880:3101::25 | 10.12.2.25 & 2606:4100:3880:3102::25 | | Chelsio NIC, Broadcom NICs | | |
 | node-06 | Test Node #06 | 10.12.1.30 & 2606:4100:3880:3101::30 | 10.12.2.30 & 2606:4100:3880:3102::30 | | Chelsio NIC, Broadcom NICs | | |
-| node-07 | Test Node #07 | 10.12.1.35 & 2606:4100:3880:3101::35 | 10.12.2.45 & 2606:4100:3880:3102::35 | | Broadcom NIC | | |
-| node-08 | Test Node #08 | 10.12.1.40 & 2606:4100:3880:3101::40 | 10.12.2.40 & 2606:4100:3880:3102::40 | | Broadcom NIC | | |
-| node-09 | Test Node #09 | 10.12.1.45 & 2606:4100:3880:3101::45 | 10.12.2.45 & 2606:4100:3880:3102::45 | | Mellanox NIC | | |
-| node-10 | Test Node #10 | 10.12.1.50 & 2606:4100:3880:3101::50 | 10.12.2.50 & 2606:4100:3880:3102::50 | | Mellanox NIC | | |
+| node-07 | Test Node #07 | 10.12.1.35 & 2606:4100:3880:3101::35 | 10.12.2.45 & 2606:4100:3880:3102::35 | Mellanox NIC | Broadcom NIC, Mellanox NIC| | |
+| node-08 | Test Node #08 | 10.12.1.40 & 2606:4100:3880:3101::40 | 10.12.2.40 & 2606:4100:3880:3102::40 | Mellanox NIC | Broadcom NIC, Mellanox NIC | | |
+| node-09 | Test Node #09 | 10.12.1.45 & 2606:4100:3880:3101::45 | 10.12.2.45 & 2606:4100:3880:3102::45 | Mellanox NIC | Mellanox NICs | | |
+| node-10 | Test Node #10 | 10.12.1.50 & 2606:4100:3880:3101::50 | 10.12.2.50 & 2606:4100:3880:3102::50 | Mellanox NIC | Mellanox NIC | | |
 
 ## Power Control
 

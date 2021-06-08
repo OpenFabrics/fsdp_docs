@@ -10,14 +10,14 @@ NOTE: This information can also be found in [network_information.md](network_inf
 
 | Parameter | Value |
 |-----------|-------|
-|Hostname   | builder-00.ofa.iol.unh.edu|
-|System|HPE DL325|
-|lom0 Network|10.12.2.252 & 2606:4100:3880:3102::252|
-|IPMI Network|builder-00.ipmi.ofa.iol.unh.edu & 10.12.1.252 & 2606:4100:3880:3101::252|
-|IB Fabric||
-|ROCE Fabric||
-|OPA Fabric|Intel Omni-Path 100HFA016LS (fabric manager)|
-|iWARP Fabric||
+| Hostname   | builder-00.ofa.iol.unh.edu|
+| System | HPE DL325 |
+| lom0 Network | 10.12.2.252 & 2606:4100:3880:3102::252 |
+| IPMI Network | builder-00.ipmi.ofa.iol.unh.edu & 10.12.1.252 & 2606:4100:3880:3101::252 |
+| ROCE Fabric | Mellanox MCX653106A-HDAT Port 1 |
+| iWARP Fabric | Mellanox MCX653106A-HDAT Port 1 |
+| IB Fabric | Mellanox MCX653106A-HDAT Port 2 |
+| OPA Fabric | Intel Omni-Path 100HFA016LS (fabric manager) |
 
 ## Usage Instructions
 
