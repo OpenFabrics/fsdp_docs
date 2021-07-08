@@ -14,9 +14,9 @@ NOTE: This information can also be found in [network_information.md](network_inf
 | System | HPE DL325 |
 | lom0 Network | 10.12.2.252 & 2606:4100:3880:3102::252 |
 | IPMI Network | builder-00.ipmi.ofa.iol.unh.edu & 10.12.1.252 & 2606:4100:3880:3101::252 |
-| ROCE Fabric | Mellanox MCX653106A-HDAT Port 1 |
-| iWARP Fabric | Mellanox MCX653106A-HDAT Port 1 |
-| IB Fabric | Mellanox MCX653106A-HDAT Port 2 |
+| ROCE Fabric | Mellanox MCX653106A-HDAT Port 1 *(Connected to Mellanox QM8700 IB switch port 22)* |
+| iWARP Fabric | Mellanox MCX653106A-HDAT Port 1 *(Connected to Mellanox QM8700 IB switch port 22)* |
+| IB Fabric | Mellanox MCX653106A-HDAT Port 2 *(Connected to Mellanox QM8700 IB switch port 2)*|
 | OPA Fabric | Intel Omni-Path 100HFA016LS (fabric manager) |
 
 ## Usage Instructions
