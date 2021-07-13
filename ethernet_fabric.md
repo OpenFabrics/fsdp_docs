@@ -13,13 +13,11 @@ The switch's management interface can be accessed via **edgecore.ofa.iol.unh.edu
 
 In the port definitions below, the power numbers refer to the 40G / 100G port. When
 that port is connected to a breakout cable, either to 10G or 25G, the physical
-sub-port is indicated as the second number.  *Logical ports in SONiC will be updated
-when available.*
+sub-port is indicated as the second number.  *Logical ports in SONiC will be updated when available.*
 
-## Fabric "Manager"
+## Fabric "Manager" & Builder
 
-The [builder-00.ofa.iol.unh.edu](bulders.md) acts as the fabric "manager" through port 1 of
-the Mellanox MCX653106A-HDAT card, which is connected to switch port 32.
+The [builder-00.ofa.iol.unh.edu](bulders.md) acts as the fabric "manager" through port 1 of the Mellanox MCX653106A-HDAT card, which is connected to switch port 22.
 
 ## Test Nodes
 

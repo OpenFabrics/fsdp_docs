@@ -13,17 +13,21 @@ that port is connected to a breakout cable, either to 10G or 25G, the physical
 sub-port is indicated as the second number.  *Logical ports will be updated
 when available.*
 
+## Builder
+
+The [builder-00.ofa.iol.unh.edu](bulders.md) includes a Mellanox MCX653106A-HDAT card, with port 2 connected to switch port 40.
+
 ## Test Nodes
 
 The following test nodes have **Mellanox MCX653106A-HDAT 200G 2-port** cards installed in PCI Slot 3:
 
-* node-07.ofa.iol.unh.edu - Connected to Mellanox QM8700 IB switch port 1 *and Edgecore Wedge 100BF-32x Ethernet switch port 8*
-* node-08.ofa.iol.unh.edu - Connected to *Edgecore Wedge 100BF-32x Ethernet switch port 13*
+* node-07.ofa.iol.unh.edu - Port 1 is connected to Mellanox QM8700 IB switch port 1 and port 2 is connected to Edgecore Wedge 100BF-32x Ethernet switch port 8
+* node-08.ofa.iol.unh.edu - Port 1 is connected to Mellanox QM8700 IB switch port 2 and port 2 is connected to Edgecore Wedge 100BF-32x Ethernet switch port 13
 
 The following test nodes have **Mellanox MCX556A-ECAT 100G 2-port** cards installed in PCI slot 1:
 
-* node-09.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 6 *and Edgecore Wedge 100BF-32x Ethernet switch port 11*
-* node-10.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 5 *and Edgecore Wedge 100BF-32x Ethernet switch port 15*
+* node-09.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 6 and Edgecore Wedge 100BF-32x Ethernet switch port 11
+* node-10.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 5 and Edgecore Wedge 100BF-32x Ethernet switch port 15
 
 The following test nodes have **Mellanox CX654106A 200G 2-port** cards installed in PCI slots 1 and 3:
 
