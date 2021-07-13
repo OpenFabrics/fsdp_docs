@@ -32,7 +32,7 @@ information about each of the installed NICs is listed on the
 | Host Name | Description | IPMI Network | lom0 Network | IB Fabric | ROCE Fabric | OPA Fabric | iWARP Fabric |
 | --------- | ----------- | ------------ | ------------ | --------- | ----------- | ---------- | ------------ |
 | beaker| Beaker server and lab controller (VM) | 10.12.1.253 & 2606:4100:3880:3101::253 | 10.12.2.253 & 2606:4100:3880:3102::253 | | | | |
-| builder-00 | Build server (bare-metal) | 10.12.1.252 & 2606:4100:3880:3101::252 | 10.12.2.252 & 2606:4100:3880:3102::252 | | | Intel NIC | |
+| builder-00 | Build server (bare-metal) | 10.12.1.252 & 2606:4100:3880:3101::252 | 10.12.2.252 & 2606:4100:3880:3102::252 | Mellanox NIC | Mellanox NIC | Intel NIC | Mellanox NIC |
 | pdu-1 | Power Distribution Unit #1 | 10.12.1.250 & 2606:4100:3880:3101::250 |
 | pdu-2 | Power Distribution Unit #1 | 10.12.1.251 & 2606:4100:3880:3101::251 |
 | node-01 | Test Node #01 | 10.12.1.5 & 2606:4100:3880:3101::5 | 10.12.2.5 & 2606:4100:3880:3102::5 | | Intel NICs | Intel NIC | |
