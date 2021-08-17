@@ -3,6 +3,12 @@
 The following describes the status of each test node in the FSDP cluster,
 along with the installed fabric cards, etc.
 
+Users can login to the HPE iLO5 or IPMI interface of each node using their
+assigned username / password.  Login to the installed OS on the node is via
+the root password they provisioned within beaker prior to the install.  See
+the [Network Information](network_information.md) page for IPMI and IP
+address details for each node.
+
 ## node-01.ofa.iol.unh.edu
 
 | Parameter | Description |
