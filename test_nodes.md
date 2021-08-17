@@ -126,3 +126,60 @@ along with the installed fabric cards, etc.
 | PCI Slot 2 Card | Mellanox QL41212HLCU 100G 2-port card |
 | PCI Slot 3 Type | 16x half height |
 | PCI Slot 3 Card | Mellanox CX654106A 200G 2-port card (2/2)|
+
+# Matrix Table of all nodes
+
+| Node Name | PCI Slot | Card | Port | opa0 | ib0 | roce | iw |
+| --------- | -------- | ---- | ---- | ---- | --- | ---- | -- |
+| node-01 | 1 | Intel E810 | 1 | | | x | |
+| | | | 2 | | | | |
+| | 2 | Intel X722 | 1 | | | | x |
+| | | | 2 | | | | |
+| | 3 | Omni-Path | 1 | x | | | |
+| node-02 | 1 | Intel E810 | 1 | | | x | |
+| | | | 2 | | | | |
+| | 2 | Intel X722 | 1 | | | | x |
+| | | | 2 | | | | |
+| | 3 | Omni-Path | 1 | x | | | |
+| node-03 | 1 | Mellanox 556A | 1 | | x | | |
+| | | | 2 | | | x | |
+| | 2 | Chelsio T6225 | 1 | | | | x |
+| | | | 2 | | | | |
+| | 3 | Omni-Path | 1 | x | | | |
+| node-04 | 1 | Empty | | | | | |
+| | 2 | Chelsio T6225 | 1 | | | | x |
+| | | | 2 | | | | |
+| | 3 | Omni-Path | 1 | x | | | |
+| node-05 | 1 | Chelsio T62100 | 1 | | | | x |
+| | | | 2 | | | | |
+| | 2 | Broadcom 57404 | 1 | | | x | |
+| | | | 2 | | | | |
+| | 3 | Broadcom 957508 | 1 | | | x | |
+| | | | 2 | | | | |
+| node-06 | 1 | Chelsio T62100 | 1 | | | | x |
+| | | | 2 | | | | |
+| | 2 | Broadcom 57404 | 1 | | | x | |
+| | | | 2 | | | | |
+| | 3 | Broadcom 957508 | 1 | | | x | |
+| | | | 2 | | | | |
+| node-07 | 1 | Broadcom 957508 | 1 | | | | x |
+| | | | 2 | | | | |
+| | 2 | Mellanox 631105AN | 1 | | | x | |
+| | 3 | Mellanox 653106A | 1 | | x | | |
+| | | | 2 | | | x | |
+| node-08 | 1 | Broadcom 957508 | 1 | | | | x |
+| | | | 2 | | | | |
+| | 2 | Mellanox 631105AN | 1 | | | x | |
+| | 3 | Mellanox 653106A | 1 | | x | | |
+| | | | 2 | | | x | |
+| node-09 | 1 | Mellanox 556A | 1 | | x | | |
+| | | | 2 | | | x | |
+| | 2 | Mellanox 41212 | 1 | | | x | |
+| | | | 2 | | | x | |
+| | 3 | Mellanox 631102AN | 1 | | | x | |
+| | | | 2 | | | x | |
+| node-10 | 1&3 | Mellanox 654106A | 1 | | x | | |
+| | | | 2 | | | | |
+| | 2 | Mellanox 41212 | 1 | | | x | |
+| | | | 2 | | | x | |
+
