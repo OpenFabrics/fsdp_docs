@@ -29,6 +29,10 @@ each of the operational networks and 1 or more of the fabics. More detailed
 information about each of the installed NICs is listed on the
 [Test Nodes](test_nodes.md) page.
 
+Users can login to the HPE iLO5 or IPMI interface of each node using their
+assigned username / password.  Login to the installed OS on the node is via
+the root password they provisioned within beaker prior to the install.
+
 | Host Name | Description | IPMI Network | lom0 Network | IB Fabric | ROCE Fabric | OPA Fabric | iWARP Fabric |
 | --------- | ----------- | ------------ | ------------ | --------- | ----------- | ---------- | ------------ |
 | beaker| Beaker server and lab controller (VM) | 10.12.1.253 & 2606:4100:3880:3101::253 | 10.12.2.253 & 2606:4100:3880:3102::253 | | | | |
