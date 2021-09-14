@@ -21,6 +21,14 @@ etc.) in the lab via either their SSH key, or their password.  We are, to the
 extend possible, avoiding the use of any shared or published credentials for the
 systems.
 
+### A Note About Certificates
+
+The services within the OFA lab / cluster utilize SSL/TLS where possible, with
+certificates signed via a common CA provided by IPA. If you wish to utilize local
+clients to connect to these services, such as the Beaker Client, you will need to
+install and trust the CA certificate locally on your system. You can download the
+[ca.crt](https://beaker.ofa.iol.unh.edu/ca.crt) file from the beaker server.
+
 ## Lab Logical Network Layout
 
 The figure below shows the general layout of the lab network.  The [Lab Network
