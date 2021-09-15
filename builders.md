@@ -93,17 +93,19 @@ TBA
 
 ### HTML File Access
 
-To enable cluster users to easily move artifacts from their build environments to
-the test nodes, the build servers have been configured to support user public_html
-directorys.  You will need to take the following steps to create a public_html
-root in your home directory.  Note, any files placed this directory will be made
-availble to all logged in users in the cluster, unless you take the steps below
-to add a password (http basic authentication).  The steps to enable the password
-are optional and at your discretion.
+To enable cluster users to easily move artifacts from their build environments
+to the test nodes, the build servers have been configured to support user
+public_html directories.  You will need to take the following steps to create a
+public_html root in your home directory.  Note, any files placed this directory
+will be made available to all logged in users in the cluster unless you take
+the optional steps below to add a password (http basic authentication).
 
+Required:
 1. Create the directory, `mkdir ~/public_html`
-1. Create the .htaccess file with the contents below, `vim ~/public_html/.htaccess`
-Note, you need to replace username with your actually username on the system.
+
+Optional, to protect your artifacts from other snooping eyes (replace USERNAME
+with your username on the system):
+1. Create an .htaccess file with the contents below, `vim ~/public_html/.htaccess`
 1. Create your password, `htpasswd -c ~/public_html/.htpasswd USERNAME`
 
 #### .htaccess file contents
