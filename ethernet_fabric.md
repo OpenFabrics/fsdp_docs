@@ -38,7 +38,7 @@ The following test nodes have **Chelsio T6225-CR 2x10/25G 2-port** cards install
 
 The following test nodes have **Chelsio T62100-CR 2x40/50/100G 2-port** cards installed in PCI Slot 1:
 
-* node-05.ofa.iol.unh.edu - Connected to switch ports 7
+* node-09.ofa.iol.unh.edu - Connected to switch ports 7
 * node-06.ofa.iol.unh.edu - Connected to switch ports 12
 
 The following test nodes have **Broadcom 57404 25G 2-port** cards installed in PCI Slot 2:
@@ -46,14 +46,7 @@ The following test nodes have **Broadcom 57404 25G 2-port** cards installed in P
 * node-05.ofa.iol.unh.edu - Connected to switch port 9.1 and 9.2
 * node-06.ofa.iol.unh.edu - Connected to switch port 9.3 and 9.4
 
-The following test nodes have **Broadcom 957508-P2100G 100G 2-port** cards installed:
-
-PCI Slot 3:
-
-* node-05.ofa.iol.unh.edu - Connected to switch port 10
-* node-06.ofa.iol.unh.edu - Connected to switch port 14
-
-PCI Slot 1:
+The following test nodes have **Broadcom 957508-P2100G 100G 2-port** cards installed in PCI Slot 1:
 
 * node-07.ofa.iol.unh.edu - Connected to switch port 16 and 17
 * node-08.ofa.iol.unh.edu - Connected to switch port 18 and 19

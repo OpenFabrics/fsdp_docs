@@ -26,9 +26,10 @@ The following test nodes have **Mellanox MCX653106A-HDAT 200G 2-port** cards ins
 
 The following test nodes have **Mellanox MCX556A-ECAT 100G 2-port** cards installed in PCI slot 1:
 
-* node-09.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 6 and Edgecore Wedge 100BF-32x Ethernet switch port 11
+* node-04.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 6 and Edgecore Wedge 100BF-32x Ethernet switch port 11
 * node-10.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 5 and Edgecore Wedge 100BF-32x Ethernet switch port 15
 
 The following test nodes have **Mellanox CX654106A 200G 2-port** cards installed in PCI slots 1 and 3:
 
+* node-05.ofa.iol.unh.edu - *To be connected to TBA*
 * node-10.ofa.iol.unh.edu - *To be connected to switch port 9*
