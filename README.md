@@ -25,7 +25,15 @@ Users can login to the HPE iLO5 or IPMI interface of each node using their
 assigned username / password.  Login to the installed OS on the node is via
 the root password they provisioned within beaker prior to the install.  See
 the [Network Information](network_information.md) page for IPMI and IP
-address details for each node.
+address details for each node
+
+### A Note About Certificates
+
+The services within the OFA lab / cluster utilize SSL/TLS where possible, with
+certificates signed via a common CA provided by IPA. If you wish to utilize local
+clients to connect to these services, such as the Beaker Client, you will need to
+install and trust the CA certificate locally on your system. You can download the
+[ca.crt](https://beaker.ofa.iol.unh.edu/ca.crt) file from the beaker server.
 
 ## Lab Logical Network Layout
 
