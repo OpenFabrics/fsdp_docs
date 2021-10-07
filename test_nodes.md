@@ -10,7 +10,9 @@ the [Network Information](network_information.md) page for IPMI and IP
 address details for each node.
 
 [Omni-Path Fabric](omni_path_fabric.md)
+
 [InfiniBand Fabric 0](ib_fabric.md)
+
 [RoCE & iWARP Ethernet Fabric](ethernet_fabric.md)
 
 ## Matrix Table of all nodes
