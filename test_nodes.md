@@ -137,7 +137,9 @@ address details for each node.
 
 | Node Name | PCI Slot | Card              | Port | opa0 | ib0 | roce | iw |
 |-----------|----------|-------------------|------|------|-----|------|----|
-| node-01   | 1        | Intel E810        | 1    |      |     | x    |    |
+| node-01   | 1        | Intel E810-CQDA2
+			 100G 2-port RoCE
+			 card		   | 1    |      |     | x    |    |
 |           |          |                   | 2    |      |     |      |    |
 |           | 2        | Intel X722        | 1    |      |     |      | x  |
 |           |          |                   | 2    |      |     |      |    |
