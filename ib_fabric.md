@@ -19,17 +19,16 @@ The [builder-00.ofa.iol.unh.edu](bulders.md) includes a Mellanox MCX653106A-HDAT
 
 ## Test Nodes
 
-The following test nodes have **Mellanox MCX653106A-HDAT 200G 2-port** cards installed in PCI Slot 3:
+The fabric switch ports are currently connected as follows.
 
-* node-07.ofa.iol.unh.edu - Port 1 is connected to Mellanox QM8700 IB switch port 1 and port 2 is connected to Edgecore Wedge 100BF-32x Ethernet switch port 8
-* node-08.ofa.iol.unh.edu - Port 1 is connected to Mellanox QM8700 IB switch port 2 and port 2 is connected to Edgecore Wedge 100BF-32x Ethernet switch port 13
+| Switch Port | Connected To                                                       |
+|-------------|--------------------------------------------------------------------|
+| 1           | node-07 Mellanox 653106A 200G 2-port VPI Port 1                    |
+| 2           | node-08 Mellanox 653106A 200G 2-port VPI Port 1                    |
+| 3           |                                                                    |
+| 4           |                                                                    |
+| 5           | node-10 Mellanox 654106A ConnectX-6 200G 2-port VPI Port 1         |
+| 6           | node-09 Mellanox 654106A ConnectX-6 200G 2-port VPI Port 1         |
+| 40          | builder-00 Mellanox MCX653106A-HDAT Port 2                         |
 
-The following test nodes have **Mellanox MCX556A-ECAT 100G 2-port** cards installed in PCI slot 1:
-
-* node-04.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 6 and Edgecore Wedge 100BF-32x Ethernet switch port 11
-* node-10.ofa.iol.unh.edu - Connected to  Mellanox QM8700 IB switch port 5 and Edgecore Wedge 100BF-32x Ethernet switch port 15
-
-The following test nodes have **Mellanox CX654106A 200G 2-port** cards installed in PCI slots 1 and 3:
-
-* node-05.ofa.iol.unh.edu - *To be connected to TBA*
-* node-10.ofa.iol.unh.edu - *To be connected to switch port 9*
+Note, node-03 and node-04 connectsions are currently missing IB cables.
