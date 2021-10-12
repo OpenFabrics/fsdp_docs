@@ -21,51 +21,40 @@ The [builder-00.ofa.iol.unh.edu](bulders.md) acts as the fabric "manager" throug
 
 ## Test Nodes
 
-The following [test nodes](test_nodes.md) have **Intel E810-CQDA2 100G 2-port** cards installed in PCI Slot 1.
+| Switch Port | Sub Port | Connected To  
+|-------------|----------|---------------
+| 1           | N/A      | node-01 Intel E810-CQDA2 100G 2-port RoCE Port 1
+| 2           | N/A      | node-01 Intel E810-CQDA2 100G 2-port RoCE Port 2
+| 3           | 1        | node-01 Intel X722-DA2 10G 2-port iWARP Port 1
+| 3           | 2        | node-01 Intel X722-DA2 10G 2-port iWARP Port 2
+| 3           | 3        | node-02 Intel X722-DA2 10G 2-port iWARP Port 1
+| 3           | 4        | node-02 Intel X722-DA2 10G 2-port iWARP Port 2
+| 4           | N/A      | node-02 Intel E810-CQDA2 100G 2-port RoCE Port 1
+| 5           | N/A      | node-02 Intel E810-CQDA2 100G 2-port RoCE Port 2
+| 6           | 1        | node-03 Chelsio T6225 T6 25G 2-port iWARP Port 1
+| 6           | 2        | node-03 Chelsio T6225 T6 25G 2-port iWARP Port 2
+| 6           | 3        | node-04 Chelsio T6225 T6 25G 2-port iWARP Port 1
+| 6           | 4        | node-04 Chelsio T6225 T6 25G 2-port iWARP Port 2
+| 7           | N/A      | node-07 Mellanox 653106A 200G 2-port VPI Port 2
+| 8           | N/A      | node-08 Mellanox 653106A 200G 2-port VPI Port 2
+| 9           | 1        | node-05 Broadcom 57414 25G 2-port RoCE Port 1
+| 9           | 2        | node-05 Broadcom 57414 25G 2-port RoCE Port 2
+| 9           | 3        | node-06 Broadcom 57414 25G 2-port RoCE Port 1
+| 9           | 4        | node-06 Broadcom 57414 25G 2-port RoCE Port 2
+| 10          | N/A      | node-03 Mellanox 556A ConnectX-5 100G 2-port VPI Port 2
+| 11          | N/A      | node-04 Mellanox 556A ConnectX-5 100G 2-port VPI Port 2
+| 12          | N/A      | node-05 Chelsio T62100 T6 100G 2-port iWARP Port 1
+| 13          | N/A      | node-06 Chelsio T62100 T6 100G 2-port iWARP Port 1
+| 14          | N/A      | node-09 Mellanox 654106A ConnectX-6 200G 2-port VPI Port 2
+| 15          | N/A      | node-10 Mellanox 654106A ConnectX-6 200G 2-port VPI Port 2
+| 16          | N/A      | node-07 Broadcom 57508 200G 1-port RoCE Port 1
+| 17          | N/A      | node-07 Broadcom 57508 200G 1-port RoCE Port 2
+| 18          | N/A      | node-08 Broadcom 57508 200G 1-port RoCE Port 1
+| 19          | N/A      | node-08 Broadcom 57508 200G 1-port RoCE Port 2
+| 20          | 1        | node-09 QLogic FastLinQ QL41000 50G 2-port RoCE Port 1
+| 20          | 2        | node-09 QLogic FastLinQ QL41000 50G 2-port RoCE Port 2
+| 20          | 3        | node-10 QLogic FastLinQ QL41000 50G 2-port RoCE Port 1
+| 20          | 4        | node-10 QLogic FastLinQ QL41000 50G 2-port RoCE Port 2
+| 32          | N/A      | builder-00 MCX653106A-HDAT Port 1
 
-* node-01.ofa.iol.unh.edu - Connected to switch port 1 + 2
-* node-02.ofa.iol.unh.edu - Connected to switch port 4 + 5
-
-The following test nodes have **Intel X722-DA2 10G 2-port** cards installed in PCI Slot 2:
-
-* node-01.ofa.iol.unh.edu - Connected to switch port 3.1 and 3.2
-* node-02.ofa.iol.unh.edu - Connected to switch port 3.3 and 3.4
-
-The following test nodes have **Chelsio T6225-CR 2x10/25G 2-port** cards installed in PCI Slot 2:
-
-* node-03.ofa.iol.unh.edu - Connected to switch port 6.1 and 6.2
-* node-04.ofa.iol.unh.edu - Connected to switch port 6.3 and 6.4
-
-The following test nodes have **Chelsio T62100-CR 2x40/50/100G 2-port** cards installed in PCI Slot 1:
-
-* node-09.ofa.iol.unh.edu - Connected to switch ports 7
-* node-06.ofa.iol.unh.edu - Connected to switch ports 12
-
-The following test nodes have **Broadcom 57404 25G 2-port** cards installed in PCI Slot 2:
-
-* node-05.ofa.iol.unh.edu - Connected to switch port 9.1 and 9.2
-* node-06.ofa.iol.unh.edu - Connected to switch port 9.3 and 9.4
-
-The following test nodes have **Broadcom 957508-P2100G 100G 2-port** cards installed in PCI Slot 1:
-
-* node-07.ofa.iol.unh.edu - Connected to switch port 16 and 17
-* node-08.ofa.iol.unh.edu - Connected to switch port 18 and 19
-
-The following test nodes have **Mellanox QL41212HLCU 25G 2-port** cards installed in PCI Slot 2:
-
-* node-09.ofa.iol.unh.edu - Connected to switch port 20.1 and 20.2
-* node-10.ofa.iol.unh.edu - Connected to switch port 20.3 and 20.4
-
-The following test nodes have **Mellanox MCX631105AN-GDAT 50G 1-port** cards installed in PCI Slot 2:
-
-* node-07.ofa.iol.unh.edu - Connected to TBA
-* node-08.ofa.iol.unh.edu - Connected to TBA
-
-The following test nodes have **Mellanox MCX631102AN-ADAT 10/25G 2-port** cards installed in PCI slot 3:
-
-* node-09.ofa.iol.unh.edu - Connected to switch port 21.1 and 21.2
-
-The following test nodes have **Mellanox MCX631105AN-GDAT 50G 1-port** cards installed in PCI Slot 2:
-
-* node-07.ofa.iol.unh.edu - Connected to TBA
-* node-08.ofa.iol.unh.edu - Connected to TBA
+Note, node-07 and node-08, PCI2 Mellanox 631105AN 50G 1-port RoCE, are currently missing cables and are not connected.
