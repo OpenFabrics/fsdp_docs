@@ -62,10 +62,10 @@ address details for each node.
 |           | 3        | Mellanox 653106A 200G 2-port VPI              | 1    |      | x   |      |    |
 |           |          |                                               | 2    |      |     | x    |    |
 | node-09   | 1&3      | Mellanox 654106A ConnectX-6 200G 2-port VPI   | 1    |      | x   |      |    |
-|           |          |                                               | 2    |      |     |      |    |
+|           |          |                                               | 2    |      |     | x    |    |
 |           | 2        | QLogic FastLinQ QL41212 25G 2-port RoCE       | 1    |      |     | x    |    |
 |           |          |                                               | 2    |      |     |      |    |
 | node-10   | 1&3      | Mellanox 654106A ConnectX-6 200G 2-port VPI   | 1    |      | x   |      |    |
-|           |          |                                               | 2    |      |     |      |    |
+|           |          |                                               | 2    |      |     | x    |    |
 |           | 2        | QLogic FastLinQ QL41212 25G 2-port RoCE       | 1    |      |     | x    |    |
 |           |          |                                               | 2    |      |     |      |    |
