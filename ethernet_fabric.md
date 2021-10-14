@@ -51,10 +51,10 @@ The [builder-00.ofa.iol.unh.edu](bulders.md) acts as the fabric "manager" throug
 | 17          | N/A      | Ethernet64      | node-07 Broadcom 57508 200G 1-port RoCE Port 2
 | 18          | N/A      | Ethernet68      | node-08 Broadcom 57508 200G 1-port RoCE Port 1
 | 19          | N/A      | Ethernet72      | node-08 Broadcom 57508 200G 1-port RoCE Port 2
-| 20          | 1        |                 | node-09 QLogic FastLinQ QL41000 50G 2-port RoCE Port 1
-| 20          | 2        |                 | node-09 QLogic FastLinQ QL41000 50G 2-port RoCE Port 2
-| 20          | 3        |                 | node-10 QLogic FastLinQ QL41000 50G 2-port RoCE Port 1
-| 20          | 4        |                 | node-10 QLogic FastLinQ QL41000 50G 2-port RoCE Port 2
+| 20          | 1        | Ethernet76      | node-09 QLogic FastLinQ QL41000 50G 2-port RoCE Port 1
+| 20          | 2        | Ethernet77      | node-09 QLogic FastLinQ QL41000 50G 2-port RoCE Port 2
+| 20          | 3        | Ethernet78      | node-10 QLogic FastLinQ QL41000 50G 2-port RoCE Port 1
+| 20          | 4        | Ethernet79      | node-10 QLogic FastLinQ QL41000 50G 2-port RoCE Port 2
 | 32          | N/A      | Ethernet124     | builder-00 MCX653106A-HDAT Port 1
 
 Note, node-07 and node-08, PCI2 Mellanox 631105AN 50G 1-port RoCE, are currently missing cables and are not connected.
