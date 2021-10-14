@@ -51,12 +51,12 @@ address details for each node.
 |           |          |                                               | 2    |      |     |      |    |
 |           | 3        | Empty                                         |      |      |     |      |    |
 |           |          |                                               |      |      |     |      |    |
-| node-07   | 1        | Broadcom 57508 200G 1-port RoCE               | 1    |      |     |      | x  |
+| node-07   | 1        | Broadcom 57508 200G 1-port RoCE               | 1    |      |     | x    |    |
 |           |          |                                               | 2    |      |     |      |    |
 |           | 2        | Mellanox 631105AN 50G 1-port RoCE             | 1    |      |     | x    |    |
 |           | 3        | Mellanox 653106A 200G 2-port VPI              | 1    |      | x   |      |    |
 |           |          |                                               | 2    |      |     | x    |    |
-| node-08   | 1        | Broadcom 57508 200G 1-port RoCE               | 1    |      |     |      | x  |
+| node-08   | 1        | Broadcom 57508 200G 1-port RoCE               | 1    |      |     | x    |    |
 |           |          |                                               | 2    |      |     |      |    |
 |           | 2        | Mellanox 631105AN 50G 1-port RoCE             | 1    |      |     | x    |    |
 |           | 3        | Mellanox 653106A 200G 2-port VPI              | 1    |      | x   |      |    |
