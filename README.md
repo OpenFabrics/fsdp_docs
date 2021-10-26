@@ -62,8 +62,8 @@ additional details for the resources and hardware within the lab. The
 cards installed and connected fabrics.
 
 Users connecting to the lab for the first time should immedately SSH into the
-builder-00.ofa.iol.unh.edu server, following to prompts to change their
-password.  This username and password will be used to access all resrouces
+builder-00.ofa.iol.unh.edu server and follow the prompts to change their
+password.  This username and password will be used to access all resources
 within the lab.  More information about the build server(s) in the lab is available
 on the [Builders](builders.md) page.  The build server(s) may be used by lab
 participants to store build environmets, code, and other items that might
