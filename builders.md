@@ -14,16 +14,16 @@ NOTE: This information can also be found in [network_information.md](network_inf
 | System | HPE DL325 |
 | lom0 Network | 10.12.2.252 & 2606:4100:3880:3102::252 |
 | IPMI Network | builder-00.ipmi.ofa.iol.unh.edu & 10.12.1.252 & 2606:4100:3880:3101::252 |
-| ROCE Fabric | Mellanox MCX653106A-HDAT Port 1 *(Connected to Edgecore Wedge 100BF-32x Ethernet switch port 22)* |
-| iWARP Fabric | Mellanox MCX653106A-HDAT Port 1 *(Connected to Edgecore Wedge 100BF-32x Ethernet switch port 22)* |
+| ROCE Fabric | Mellanox MCX653106A-HDAT Port 1 *(Connected to Edgecore Wedge 100BF-32x Ethernet switch port 32)* |
+| iWARP Fabric | Mellanox MCX653106A-HDAT Port 1 *(Connected to Edgecore Wedge 100BF-32x Ethernet switch port 32)* |
 | IB Fabric | Mellanox MCX653106A-HDAT Port 2 *(Connected to Mellanox QM8700 IB switch port 40)*|
-| OPA Fabric | Intel Omni-Path 100HFA016LS (fabric manager) |
+| OPA Fabric | Intel Omni-Path 100HFA016LS *(fabric manager)* |
 
 ## Usage Instructions
 
 ### Accessing the Server
 
-#### 1. Connect to the VPN
+#### Connect to the VPN
 
 When your FSDP Cluster account is created, you should receive an email
 with your OpenVPN client configuration attached.
@@ -49,7 +49,7 @@ it is connected to the VPN.**
 to keep it appropriately secure. E-mail ofalab@iol.unh.edu
 immediately if your VPN credentials have been compromised.**
 
-#### 2. Connect to the build server
+#### Connect to the build server
 
 Connect to the build server via ssh:
 
@@ -101,10 +101,12 @@ will be made available to all logged in users in the cluster unless you take
 the optional steps below to add a password (http basic authentication).
 
 Required:
+
 1. Create the directory, `mkdir ~/public_html`
 
 Optional, to protect your artifacts from other snooping eyes (replace USERNAME
 with your username on the system):
+
 1. Create an .htaccess file with the contents below, `vim ~/public_html/.htaccess`
 1. Create your password, `htpasswd -c ~/public_html/.htpasswd USERNAME`
 

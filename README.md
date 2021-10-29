@@ -62,9 +62,14 @@ additional details for the resources and hardware within the lab. The
 cards installed and connected fabrics.
 
 Users connecting to the lab for the first time should immedately SSH into the
-builder-00.ofa.iol.unh.edu server, following to prompts to change their
-password.  This username and password will be used to access all resrouces
-within the lab.
+builder-00.ofa.iol.unh.edu server and follow the prompts to change their
+password.  This username and password will be used to access all resources
+within the lab.  More information about the build server(s) in the lab is available
+on the [Builders](builders.md) page.  The build server(s) may be used by lab
+participants to store build environmets, code, and other items that might
+be required for their testing, along with providing CPU resources to compile
+artifacts for testing.  It provides can provide http access to those artifacts
+for easy access by the [Test Nodes](test_nodes.md).
 
 It is recommended each company appoint a primary delegate, who will notify
 the OFA and FSDP lab of any staffing changes that require the deactivation or
