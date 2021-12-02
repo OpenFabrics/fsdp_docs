@@ -43,23 +43,23 @@ address details for each node.
 |           |          |                                               | 2    |      |     |      |    |
 |           | 2        | Broadcom 57414 25G 2-port RoCE                | 1    |      |     | x    |    |
 |           |          |                                               | 2    |      |     |      |    |
-|           | 3        | Empty                                         |      |      |     |      |    |
+|           | 3        | Mellanox 653106A 200G 2-port VPI              | 1    |      | x   |      |    |
 |           |          |                                               |      |      |     |      |    |
 | node-06   | 1        | Chelsio T62100 T6 100G 2-port iWARP           | 1    |      |     |      | x  |
 |           |          |                                               | 2    |      |     |      |    |
 |           | 2        | Broadcom 57414 25G 2-port RoCE                | 1    |      |     | x    |    |
 |           |          |                                               | 2    |      |     |      |    |
-|           | 3        | Empty                                         |      |      |     |      |    |
+|           | 3        | Mellanox 653106A 200G 2-port VPI              | 1    |      | x   |      |    |
 |           |          |                                               |      |      |     |      |    |
 | node-07   | 1        | Broadcom 57508 200G 1-port RoCE               | 1    |      |     | x    |    |
 |           |          |                                               | 2    |      |     |      |    |
 |           | 2        | Mellanox 631105AN 50G 1-port RoCE             | 1    |      |     | x    |    |
-|           | 3        | Mellanox 653106A 200G 2-port VPI              | 1    |      | x   |      |    |
+|           | 3        | Empty                                         |      |      |     |      |    |
 |           |          |                                               | 2    |      |     | x    |    |
 | node-08   | 1        | Broadcom 57508 200G 1-port RoCE               | 1    |      |     | x    |    |
 |           |          |                                               | 2    |      |     |      |    |
 |           | 2        | Mellanox 631105AN 50G 1-port RoCE             | 1    |      |     | x    |    |
-|           | 3        | Mellanox 653106A 200G 2-port VPI              | 1    |      | x   |      |    |
+|           | 3        | Empty                                         |      |      |     |      |    |
 |           |          |                                               | 2    |      |     | x    |    |
 | node-09   | 1&3      | Mellanox 654106A ConnectX-6 200G 2-port VPI   | 1    |      | x   |      |    |
 |           |          |                                               | 2    |      |     | x    |    |
