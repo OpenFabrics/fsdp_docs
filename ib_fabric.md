@@ -23,8 +23,8 @@ The fabric switch ports are currently connected as follows.
 
 | Switch Port | Connected To                                                       |
 |-------------|--------------------------------------------------------------------|
-| 1           | node-07 Mellanox 653106A 200G 2-port VPI Port 1                    |
-| 2           | node-08 Mellanox 653106A 200G 2-port VPI Port 1                    |
+| 1           | node-05 Mellanox 653106A 200G 2-port VPI Port 1                    |
+| 2           | node-06 Mellanox 653106A 200G 2-port VPI Port 1                    |
 | 3           | node-03 Mellanox 556A ConnectX-5 VPI 100G Port 1                   |
 | 4           | node-04 Mellanox 556A ConnectX-5 VPI 100G Port 1                   |
 | 5           | node-10 Mellanox 654106A ConnectX-6 200G 2-port VPI Port 1         |
