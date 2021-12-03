@@ -33,8 +33,8 @@ The [builder-00.ofa.iol.unh.edu](bulders.md) acts as the fabric "manager" throug
 | 6           | 2        | Ethernet21      |        |                    | node-03 Chelsio T6225 T6 25G 2-port iWARP Port 2
 | 6           | 3        | Ethernet22      | iWARP  | U(50), T(51,52)    | node-04 Chelsio T6225 T6 25G 2-port iWARP Port 1
 | 6           | 4        | Ethernet23      |        |                    | node-04 Chelsio T6225 T6 25G 2-port iWARP Port 2
-| 7           | N/A      | Ethernet24      | ROCE   | U(40), T(43,45)    | node-07 Mellanox 653106A 200G 2-port VPI Port 2
-| 8           | N/A      | Ethernet28      | ROCE   | U(40), T(43,45)    | node-08 Mellanox 653106A 200G 2-port VPI Port 2
+| 7           | N/A      | Ethernet24      | ROCE   | U(40), T(43,45)    | node-05 Mellanox 653106A 200G 2-port VPI Port 2
+| 8           | N/A      | Ethernet28      | ROCE   | U(40), T(43,45)    | node-06 Mellanox 653106A 200G 2-port VPI Port 2
 | 9           | 1        | Ethernet32      | ROCE   | U(40), T(43,45)    | node-05 Broadcom 57414 25G 2-port RoCE Port 1
 | 9           | 2        | Ethernet33      |        |                    | node-05 Broadcom 57414 25G 2-port RoCE Port 2
 | 9           | 3        | Ethernet34      | ROCE   | U(40), T(43,45)    | node-06 Broadcom 57414 25G 2-port RoCE Port 1
