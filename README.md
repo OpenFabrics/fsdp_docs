@@ -5,7 +5,7 @@ Documentation for the OpenFabrics Fabric Software Development Platform (FSDP)
 ## Lab Usage
 
 The lab is available to members of the Open Fabrics Alliance, to support the
-development and mainteance of fabric drivers and software, as well as the
+development and maintenance of fabric drivers and software, as well as the
 upstream activities, such as the Linux Kernel.
 
 Usage of the lab is doverned by an [Acceptable Usage Policy](AUP.md)
@@ -18,7 +18,7 @@ the user directly over the VPN.
 
 Unless ohterwise noted, users should have access to each system (test nodes, PDUs,
 etc.) in the lab via either their SSH key, or their password.  We are, to the
-extend possible, avoiding the use of any shared or published credentials for the
+extent possible, avoiding the use of any shared or published credentials for the
 systems.
 
 Users can login to the HPE iLO5 or IPMI interface of each node using their
@@ -68,8 +68,8 @@ within the lab.  More information about the build server(s) in the lab is availa
 on the [Builders](builders.md) page.  The build server(s) may be used by lab
 participants to store build environmets, code, and other items that might
 be required for their testing, along with providing CPU resources to compile
-artifacts for testing.  It provides can provide http access to those artifacts
-for easy access by the [Test Nodes](test_nodes.md).
+artifacts for testing.  It can provide http access to those artifacts for easy
+access by the [Test Nodes](test_nodes.md).
 
 It is recommended each company appoint a primary delegate, who will notify
 the OFA and FSDP lab of any staffing changes that require the deactivation or
