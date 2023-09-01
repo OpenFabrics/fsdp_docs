@@ -19,15 +19,15 @@ address details for each node.
 
 | Node Name | PCI Slot | Card                                          | Port | opa0 | ib0 | roce | iw | nvme |
 |-----------|----------|-----------------------------------------------|------|------|-----|------|----|------|
-| node-01   | 1        | Intel E810-CQDA2 100G 2-port RoCE             | 1    |      |     | x    |    |      |
-|           |          |                                               | 2    |      |     |      |    |      |
+| node-01   | 1        | NVMe 1TB Drive                                | 1    |      |     |      |    | x    |
+|           |          |                                               |      |      |     |      |    |      |
 |           | 2        | Intel X722-DA2 10G 2-port iWARP               | 1    |      |     |      | x  |      |
 |           |          |                                               | 2    |      |     |      |    |      |
 |           | 3        | Omni-Path 100HFA016LS 100G 1-port OPA         | 1    | x    |     |      |    |      |
 |           |          |                                               |      |      |     |      |    |      |
 |           |          |                                               |      |      |     |      |    |      |
-| node-02   | 1        | Intel E810-CQDA2 100G 2-port RoCE             | 1    |      |     | x    |    |      |
-|           |          |                                               | 2    |      |     |      |    |      |
+| node-02   | 1        | NVMe 1TB Drive                                | 1    |      |     |      |    | x    |
+|           |          |                                               |      |      |     |      |    |      |
 |           | 2        | Intel X722-DA2 10G 2-port iWARP               | 1    |      |     |      | x  |      |
 |           |          |                                               | 2    |      |     |      |    |      |
 |           | 3        | Omni-Path 100HFA016LS 100G 1-port OPA         | 1    | x    |     |      |    |      |
@@ -75,14 +75,14 @@ address details for each node.
 |           | 3        | Empty                                         |      |      |     |      |    |      |
 |           |          |                                               |      |      |     |      |    |      |
 |           |          |                                               |      |      |     |      |    |      |
-| node-09   | 1&3      | Mellanox 654106A ConnectX-6 200G 2-port VPI   | 1    |      | x   |      |    |      |
+| node-09   | 1        | Mellanox 654106A ConnectX-6 200G 2-port VPI   | 1    |      | x   |      |    |      |
 |           |          |                                               | 2    |      |     | x    |    |      |
 |           | 2        | QLogic FastLinQ QL41212 25G 2-port RoCE       | 1    |      |     | x    |    |      |
 |           |          |                                               | 2    |      |     |      | x  |      |
+|           | 3        | NVMe 1TB Drive                                |      |      |     |      |    | x    |
 |           |          |                                               |      |      |     |      |    |      |
-|           |          |                                               |      |      |     |      |    |      |
-| node-10   | 1&3      | Mellanox 654106A ConnectX-6 200G 2-port VPI   | 1    |      | x   |      |    |      |
+| node-10   | 1        | Mellanox 654106A ConnectX-6 200G 2-port VPI   | 1    |      | x   |      |    |      |
 |           |          |                                               | 2    |      |     | x    |    |      |
 |           | 2        | QLogic FastLinQ QL41212 25G 2-port RoCE       | 1    |      |     | x    |    |      |
 |           |          |                                               | 2    |      |     |      | x  |      |
-|           |          |                                               |      |      |     |      |    |      |
+|           | 3        | NVMe 1TB Drive                                |      |      |     |      |    | x    |

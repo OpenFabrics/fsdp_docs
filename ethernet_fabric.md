@@ -23,12 +23,12 @@ The [builder-00.ofa.iol.unh.edu](bulders.md) acts as the fabric "manager" throug
 
 | Switch Port | Sub Port | Sonic Interface | Fabric | VLAN Configuration | Connected To  
 |-------------|----------|-----------------|--------|--------------------|--------------------
-| 1           | N/A      | Ethernet0       | ROCE   | U(40), T(43,45)    | node-01 Intel E810-CQDA2 100G 2-port RoCE Port 1
+| 1           | N/A      | Ethernet0       |        |                    |
 | 3           | 1        | Ethernet8       | iWARP  | U(50), T(51,52)    | node-01 Intel X722-DA2 10G 2-port iWARP Port 1
 | 3           | 2        | Ethernet9       |        |                    | node-01 Intel X722-DA2 10G 2-port iWARP Port 2
 | 3           | 3        | Ethernet10      | iWARP  | U(50), T(51,52)    | node-02 Intel X722-DA2 10G 2-port iWARP Port 1
 | 3           | 4        | Ethernet11      |        |                    | node-02 Intel X722-DA2 10G 2-port iWARP Port 2
-| 4           | N/A      | Ethernet12      | ROCE   | U(40), T(43,45)    | node-02 Intel E810-CQDA2 100G 2-port RoCE Port 1
+| 4           | N/A      | Ethernet12      |        |                    |
 | 6           | 1        | Ethernet20      | iWARP  | U(50), T(51,52)    | node-03 Chelsio T6225 T6 25G 2-port iWARP Port 1
 | 6           | 2        | Ethernet21      |        |                    | node-03 Chelsio T6225 T6 25G 2-port iWARP Port 2
 | 6           | 3        | Ethernet22      | iWARP  | U(50), T(51,52)    | node-04 Chelsio T6225 T6 25G 2-port iWARP Port 1
