@@ -39,8 +39,8 @@ the root password they provisioned within beaker prior to the install.
 | builder-00 | Build server (bare-metal) | 10.12.1.252 & 2606:4100:3880:3101::252 | 10.12.2.252 & 2606:4100:3880:3102::252 | Mellanox NIC | Mellanox NIC | Intel NIC | Mellanox NIC |
 | pdu-1 | Power Distribution Unit #1 | 10.12.1.250 & 2606:4100:3880:3101::250 |
 | pdu-2 | Power Distribution Unit #1 | 10.12.1.251 & 2606:4100:3880:3101::251 |
-| node-01 | Test Node #01 | 10.12.1.5 & 2606:4100:3880:3101::5 | 10.12.2.5 & 2606:4100:3880:3102::5 | | Intel NICs | Intel NIC | |
-| node-02 | Test Node #02 | 10.12.1.10 & 2606:4100:3880:3101::10 | 10.12.2.10 & 2606:4100:3880:3102::10 | | Intel NICs | Intel NIC | |
+| node-01 | Test Node #01 | 10.12.1.5 & 2606:4100:3880:3101::5 | 10.12.2.5 & 2606:4100:3880:3102::5 | | | Intel NIC | |
+| node-02 | Test Node #02 | 10.12.1.10 & 2606:4100:3880:3101::10 | 10.12.2.10 & 2606:4100:3880:3102::10 | | | Intel NIC | |
 | node-03 | Test Node #03 | 10.12.1.15 & 2606:4100:3880:3101::15 | 10.12.2.15 & 2606:4100:3880:3102::15 | | Chelsio NIC | Intel NIC | |
 | node-04 | Test Node #04 | 10.12.1.20 & 2606:4100:3880:3101::20 | 10.12.2.20 & 2606:4100:3880:3102::20 | Mellanox NIC | Mellanox NIC | Intel NIC | |
 | node-05 | Test Node #05 | 10.12.1.25 & 2606:4100:3880:3101::25 | 10.12.2.25 & 2606:4100:3880:3102::25 | Mellanox NIC | Broadcom NIC | | |
